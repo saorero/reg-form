@@ -13,10 +13,12 @@ background-color: #0E0E0E;
 }
 main{
     
-    width: 65%;
+    width: 85%;
     
     padding: 70px ;
-    margin:  90px auto  ;
+    margin:  6px auto   ;
+    
+   
    
     background-color: #FF767F;
     background-image: url(./bg-intro-desktop.png);
@@ -27,9 +29,10 @@ main{
     
 }
 .first{
-    margin: 170px auto;
+    margin: 230px 60px;
     
     justify-content: space-between;
+    color: white;
 }
 .second{
     margin: 40px 20px 15px 10px;
@@ -38,11 +41,12 @@ main{
 }
 .form{
     width: max-content;
-   /* width: fit-content;*/
+ 
+    
     background-color: whitesmoke;
     align-items: center;
     text-align: left;
-    padding: 50px;
+    
     border-radius: 10px;
     padding: 15px;
     
@@ -50,6 +54,7 @@ main{
 .free{
     background-color: hsl(248, 32%, 49%) ;
     color: white;
+    
     border-radius: 10px;
    /* margin: 80px;*/
    padding: 10px;
@@ -57,34 +62,38 @@ main{
     align-items: center;
     border: 0cm;
 }
+.diff{
+    color: white;
+}
 .free:hover, .trial:hover{
     background-color: orangered;
 }
-.diff{
-    color: hsl(246, 25%, 77%);
-}
+
 .trial{
     background-color:hsl(154, 59%, 51%);
     color: white;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 12px;
-    width: 100%;
+    width: 90%;
     align-items: center;
     border: 0cm;
     font-size: 16px;
+    margin: 2px 25px;
 }
 strong{
     color: hsl(0, 100%, 74%) ;
     font-family:'Poppins', sans-serif ;
     font-size: medium;
 }
+
 .puts{
-    width: 100%;
-    border-radius: 10px;
-    padding: 5px;
+    width: 90%;
+    border-radius: 5px;
+    padding: 12px;
      font-family: 'Poppins', sans-serif;
      font-size: 16px;
-
+     border: 2px solid gainsboro;
+    margin: 2px 25px;
     
 }
 .puts:required:invalid{
@@ -102,6 +111,10 @@ h6{
 p{
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
+}
+a{
+    color: red;
+    text-decoration: none;
 }
 @media screen and  (max-width:1440px) {
     body{
